@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thực hành 2 bài 1"
+
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListViewActivity"
+        android:onClick="openLayout"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListviewActivityWithArrayList"
+        android:onClick="openLayout"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ListActivity"
+            android:onClick="openLayout"
+            tools:ignore="HardcodedText,UsingOnClickInXml" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SpinnerActivity"
+            android:onClick="openLayout"
+            tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GridviewActivity"
+            android:onClick="openLayout"
+            tools:ignore="HardcodedText,UsingOnClickInXml" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TabSelectorActivity"
+            android:onClick="openLayout"
+            tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ContextMenuActivity"
+        android:onClick="openLayout"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TimeSelection"
+        android:onClick="openLayout"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutocompleteTextView"
+        android:onClick="openLayout"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+</LinearLayout>
+</LinearLayout>
